@@ -1,0 +1,24 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+        }
+        
+@mixin box-shadow{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+@mixin button ($radius) {
+  @include border-radius($radius);
+  background-color:complement($primary-color);
+  text-decoration:none;
+  padding:5px 8px;
+  color:white;
+  @include box-shadow;
+  &:hover{
+     background-color:darken($primary-color, 20%);
+  }
+}

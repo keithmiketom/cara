@@ -1,0 +1,9 @@
+//colours//
+
+$select:hsla(309, 97%, 50%, 0.5);
+
+$primary-color:hsl(213, 63%, 50%);
+
+$border-pc:darken($primary-color, 10%);
+
+$navli:desaturate($primary-color, 30%);

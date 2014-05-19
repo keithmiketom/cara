@@ -1,0 +1,14 @@
+#default, #other {
+  @include button(20px);
+}
+
+.playerplayer{
+  list-style:none;
+}
+
+input#c, input#f{
+  @include border-radius(30px);
+  width:15%;
+  text-align:center;
+  font-size:0.8em;
+}

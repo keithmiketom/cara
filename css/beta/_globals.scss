@@ -1,0 +1,42 @@
+//Header and nav
+.header-container{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  width:100%;
+  background-color:lighten($primary-color, 12%);
+  height:150px;
+  border-top:30px solid darken($primary-color, 12%);
+  height:150px;
+  z-index:99;
+  padding:0 10%;
+  
+  
+}
+nav.nav ul{
+ 
+  
+ 
+}
+//main
+
+ 
+.main-container{
+ padding-top:200px;
+ padding-left:5%;
+  position:relative;
+  left:30%;
+  width:60%;
+  text-align:justify;
+
+}
+//footer
+div.footer-container{
+  position:fixed;
+  top:180px;
+  left:0;
+  width:30%;
+  height:100%;
+  background-color:complement(red);
+}
